@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+    }
+} 
+
+.Display {
+    padding: left 12px;
+    max-width: 700px;
+    max-height: 700px;
+    display: flex;
+    flex-direction: row;
+}

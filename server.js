@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const PORT = 3001;
+const PORT = 3002;
 const queries = require("./db/queries");
 
 app.use(express.static(path.join(__dirname, "./frontend/build")));
